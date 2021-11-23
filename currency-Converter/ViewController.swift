@@ -14,9 +14,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var cadLabel: UILabel!
     @IBOutlet weak var gbpLabel: UILabel!
     @IBOutlet weak var jpyLabel: UILabel!
+    @IBOutlet weak var butttonss: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        butttonss.layer.cornerRadius = 15
+        butttonss.layer.masksToBounds = true
         
     }
 
